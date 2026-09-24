@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Exploring ideas, systems, and technology through thoughtful software" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Exploring ideas, systems, and technology through thoughtful software">
+  </picture>
 </div>
 
 <br/>
