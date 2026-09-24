@@ -114,15 +114,7 @@ _Repository will be published soon._
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Srinidhi-111&show_icons=true&hide_border=true&bg_color=0B1020&title_color=8DD7FF&icon_color=9BAFE1&text_color=E8EDF7&ring_color=5B4B8A" alt="Srinidhi's GitHub statistics" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srinidhi-111&layout=compact&hide_border=true&bg_color=0B1020&title_color=8DD7FF&text_color=E8EDF7" alt="Srinidhi's top languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinidhi-111&bg_color=0B1020&color=E8EDF7&line=6477B9&point=8DD7FF&area=true&hide_border=true" width="100%" alt="Srinidhi's GitHub contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinidhi-111&bg_color=0B1020&color=E8EDF7&line=6477B9&point=B8C1D3&area=true&hide_border=true" width="100%" alt="Srinidhi's GitHub contribution activity graph" />
 
 </div>
 
