@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="74" viewBox="0 0 1600 74" role="img" aria-label="Subtle light-theme cosmic orbit divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94A3B8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#64748B" stop-opacity=".48"/>
+      <stop offset="65%" stop-color="#7C8AA3" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .orbiter {
+        animation: orbit 6s linear infinite;
+      }
+
+      .center {
+        animation: pulse 3.4s ease-in-out infinite;
+      }
+
+      @keyframes orbit {
+        0% {
+          transform: translateX(-100px);
+          opacity: 0;
+        }
+
+        12% {
+          opacity: .72;
+        }
+
+        88% {
+          opacity: .72;
+        }
+
+        100% {
+          transform: translateX(1700px);
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          opacity: .38;
+          transform: scale(.82);
+        }
+
+        50% {
+          opacity: .86;
+          transform: scale(1.22);
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="74" fill="#F8FAFC"/>
+
+  <path d="M0 37 C300 2 520 70 800 37 C1080 4 1300 70 1600 37"
+        fill="none"
+        stroke="url(#line)"
+        stroke-width="1.4"/>
+
+  <circle class="center" cx="800" cy="37" r="4.2" fill="#475569" opacity=".72" filter="url(#glow)"/>
+  <circle class="orbiter" cx="0" cy="37" r="3.2" fill="#64748B" opacity=".65" filter="url(#glow)"/>
+</svg>
