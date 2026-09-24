@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title description">
+  <title id="title">A calm cosmic banner for Srinidhi R</title>
+  <desc id="description">A dark space scene with a subtle nebula, fine constellation lines, softly glowing stars, and an orbiting planet.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060914"/>
+      <stop offset="45%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#11132A"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaOne" cx="26%" cy="28%" r="58%">
+      <stop offset="0%" stop-color="#6477B9" stop-opacity=".20"/>
+      <stop offset="48%" stop-color="#4D3D78" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#060914" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaTwo" cx="79%" cy="62%" r="48%">
+      <stop offset="0%" stop-color="#8DD7FF" stop-opacity=".10"/>
+      <stop offset="46%" stop-color="#5B4B8A" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#060914" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="planet" cx="32%" cy="26%" r="78%">
+      <stop offset="0%" stop-color="#EAF3FF"/>
+      <stop offset="22%" stop-color="#AFCBE8"/>
+      <stop offset="62%" stop-color="#536B9C"/>
+      <stop offset="100%" stop-color="#1B2342"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="planetGlow" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .headline {
+        font-family: Georgia, 'Times New Roman', serif;
+        fill: #E8EDF7;
+        letter-spacing: 1.5px;
+      }
+
+      .subheadline {
+        font-family: Arial, Helvetica, sans-serif;
+        fill: #AAB6CE;
+        letter-spacing: 3px;
+      }
+
+      .star {
+        fill: #EAF3FF;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: twinkle 4.5s ease-in-out infinite;
+      }
+
+      .slow {
+        animation-delay: 1.2s;
+      }
+
+      .slower {
+        animation-delay: 2.4s;
+      }
+
+      .orbit {
+        transform-origin: 1260px 252px;
+        animation: drift 19s linear infinite;
+      }
+
+      .planet {
+        transform-origin: 1260px 252px;
+        animation: breathe 7s ease-in-out infinite;
+      }
+
+      .constellation {
+        stroke: #9BAFE1;
+        stroke-opacity: .28;
+        stroke-width: 1;
+        fill: none;
+        stroke-dasharray: 2 8;
+        animation: trace 18s linear infinite;
+      }
+
+      @keyframes twinkle {
+        0%, 100% {
+          opacity: .22;
+          transform: scale(.72);
+        }
+        50% {
+          opacity: .95;
+          transform: scale(1.28);
+        }
+      }
+
+      @keyframes drift {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes breathe {
+        0%, 100% {
+          opacity: .82;
+          transform: scale(.97);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.03);
+        }
+      }
+
+      @keyframes trace {
+        to {
+          stroke-dashoffset: -220;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="500" rx="20" fill="url(#background)"/>
+  <rect width="1600" height="500" rx="20" fill="url(#nebulaOne)"/>
+  <rect width="1600" height="500" rx="20" fill="url(#nebulaTwo)"/>
+
+  <!-- Subtle stars -->
+  <g>
+    <circle class="star" cx="74" cy="64" r="1.6"/>
+    <circle class="star slow" cx="174" cy="168" r="1.2"/>
+    <circle class="star slower" cx="292" cy="78" r="1.8"/>
+    <circle class="star" cx="409" cy="202" r="1.1"/>
+    <circle class="star slow" cx="516" cy="54" r="1.4"/>
+    <circle class="star slower" cx="641" cy="132" r="1.2"/>
+    <circle class="star" cx="746" cy="74" r="1.5"/>
+    <circle class="star slow" cx="858" cy="185" r="1.1"/>
+    <circle class="star slower" cx="977" cy="65" r="1.7"/>
+    <circle class="star" cx="1114" cy="103" r="1.2"/>
+    <circle class="star slow" cx="1468" cy="73" r="1.5"/>
+    <circle class="star slower" cx="1536" cy="198" r="1.1"/>
+    <circle class="star" cx="1441" cy="390" r="1.4"/>
+    <circle class="star slow" cx="126" cy="414" r="1.2"/>
+    <circle class="star slower" cx="342" cy="436" r="1.6"/>
+    <circle class="star" cx="691" cy="414" r="1.1"/>
+    <circle class="star slow" cx="944" cy="446" r="1.5"/>
+  </g>
+
+  <!-- Fine constellation linework -->
+  <g class="constellation">
+    <path d="M95 330 L198 256 L310 306 L404 222 L506 277"/>
+    <path d="M474 106 L572 148 L655 97 L743 160"/>
+    <path d="M830 372 L920 313 L1018 347 L1102 280"/>
+  </g>
+
+  <g fill="#C9D8F3" opacity=".78">
+    <circle cx="95" cy="330" r="2.1" filter="url(#softGlow)"/>
+    <circle cx="198" cy="256" r="2.4" filter="url(#softGlow)"/>
+    <circle cx="310" cy="306" r="1.9" filter="url(#softGlow)"/>
+    <circle cx="404" cy="222" r="2.2" filter="url(#softGlow)"/>
+    <circle cx="506" cy="277" r="1.9" filter="url(#softGlow)"/>
+    <circle cx="474" cy="106" r="1.8" filter="url(#softGlow)"/>
+    <circle cx="572" cy="148" r="2.1" filter="url(#softGlow)"/>
+    <circle cx="655" cy="97" r="1.8" filter="url(#softGlow)"/>
+    <circle cx="743" cy="160" r="2.1" filter="url(#softGlow)"/>
+    <circle cx="830" cy="372" r="1.9" filter="url(#softGlow)"/>
+    <circle cx="920" cy="313" r="2.3" filter="url(#softGlow)"/>
+    <circle cx="1018" cy="347" r="1.9" filter="url(#softGlow)"/>
+    <circle cx="1102" cy="280" r="2.1" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Planet and orbit -->
+  <g class="planet">
+    <circle cx="1260" cy="252" r="94" fill="#8DD7FF" opacity=".07" filter="url(#planetGlow)"/>
+    <circle cx="1260" cy="252" r="70" fill="url(#planet)"/>
+    <path d="M1201 261 C1230 223 1290 218 1319 242 C1292 236 1262 246 1240 266 C1223 282 1214 300 1209 320 C1194 300 1189 280 1201 261Z" fill="#10182F" opacity=".28"/>
+    <path d="M1217 323 C1246 298 1298 304 1317 328 C1287 321 1255 333 1233 351 C1223 343 1219 334 1217 323Z" fill="#060914" opacity=".30"/>
+    <circle cx="1233" cy="215" r="9" fill="#EAF3FF" opacity=".16"/>
+  </g>
+
+  <g class="orbit">
+    <ellipse cx="1260" cy="252" rx="145" ry="40" fill="none" stroke="#AFCBE8" stroke-opacity=".34" stroke-width="1.2"/>
+    <circle cx="1394" cy="241" r="4.2" fill="#DDE7FF" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(115 205)">
+    <text class="headline" x="0" y="0" font-size="58">Srinidhi R</text>
+    <text class="subheadline" x="4" y="52" font-size="15">FULL-STACK DEVELOPMENT · BACKEND SYSTEMS · APPLIED AI</text>
+
+    <line x1="4" y1="84" x2="670" y2="84" stroke="#AAB6CE" stroke-opacity=".34"/>
+    <text x="4" y="126" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#C7D2E4">
+      Building thoughtful software for real people and real problems.
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="498" rx="20" fill="none" stroke="#AFCBE8" stroke-opacity=".16"/>
+</svg>
