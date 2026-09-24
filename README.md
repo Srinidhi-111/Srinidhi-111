@@ -1,255 +1,133 @@
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/command-center.svg" width="100%" alt="Srinidhi R — deep space developer command center" />
-
-<br/>
-
-<a href="https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/">
-  <img src="https://img.shields.io/badge/LINKEDIN-OPEN%20CHANNEL-06152B?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=030712&color=0B2545" alt="LinkedIn" />
-</a>
-<a href="mailto:srinidhir.cs24@bitsathy.ac.in">
-  <img src="https://img.shields.io/badge/EMAIL-SEND%20SIGNAL-06152B?style=for-the-badge&logo=gmail&logoColor=F472B6&labelColor=030712&color=0B2545" alt="Email" />
-</a>
-<a href="https://github.com/Srinidhi-111">
-  <img src="https://img.shields.io/badge/GITHUB-ENTER%20PROFILE-06152B?style=for-the-badge&logo=github&logoColor=EAF7FF&labelColor=030712&color=0B2545" alt="GitHub" />
-</a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=21&duration=2400&pause=800&color=22D3EE&center=true&vCenter=true&width=900&lines=INITIALIZING+DEVELOPER+PROFILE...;FULL-STACK+SYSTEMS+%7C+REAL-TIME+ANALYTICS+%7C+APPLIED+AI;I+BUILD+SOFTWARE+THAT+OBSERVES%2C+UNDERSTANDS%2C+AND+RESPONDS.;WELCOME+TO+THE+SRINIDHI+R+COMMAND+CENTER." alt="Animated developer introduction" />
-
+  <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Full-Stack Developer, Backend Systems, and Applied AI" />
 </div>
 
 <br/>
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  SIGNAL RECEIVED                                                              │
-│  Identity      : Srinidhi R                                                   │
-│  Coordinates   : Coimbatore, Tamil Nadu, India                                │
-│  Program       : B.E. Computer Science and Engineering                        │
-│  Specialization: Full-Stack Systems -  Backend Engineering -  Applied AI        │
-│  Status        : Building systems that turn human behavior into useful data   │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
 
-I am a Computer Science and Engineering student building **full-stack, real-time, AI-enabled software systems**. I enjoy the complete engineering journey: identifying a real problem, designing an experience, building the backend, modeling data, integrating APIs, deploying the system, and documenting it clearly.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Srinidhi%20R-0B1020?style=flat-square&logo=linkedin&logoColor=8DD7FF)](https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/)
+[![Email](https://img.shields.io/badge/Email-Connect-0B1020?style=flat-square&logo=gmail&logoColor=DDE7FF)](mailto:srinidhir.cs24@bitsathy.ac.in)
+[![GitHub](https://img.shields.io/badge/GitHub-Srinidhi--111-0B1020?style=flat-square&logo=github&logoColor=DDE7FF)](https://github.com/Srinidhi-111)
 
-My current orbit includes **React, TypeScript, FastAPI, Python, PostgreSQL, WebSockets, cloud deployment, analytics platforms, NLP, and AI-assisted products**.
+</div>
+
+## Hi, I’m Srinidhi
+
+I am a Computer Science and Engineering student at **Bannari Amman Institute of Technology** with a strong interest in full-stack development, backend engineering, real-time analytics, cloud deployment, and AI-enabled software.
+
+I enjoy taking an idea from problem discovery to a working product: understanding user needs, designing the experience, building APIs and data flows, integrating external services, deploying applications, and improving them through testing and iteration.
+
+My current focus is building thoughtful, reliable software for real users and real-world problems.
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
-## Mission control
+## Featured projects
 
-<div align="center">
+### UX Session Replay Analytics
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/mission-map.svg" width="100%" alt="Constellation map of Srinidhi's engineering focus areas" />
+A real-time UX analytics platform that records session events, detects rage clicks, visually replays user journeys, and helps teams identify usability friction.
 
-</div>
+**Tech stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, PostgreSQL, WebSockets, rrweb, rrweb-player, Vitest, Vercel, Render
 
-<br/>
+- Built a client-side tracking workflow for interaction events and session recording using `rrweb`.
+- Developed FastAPI endpoints for event ingestion, session listing, replay retrieval, analytics metrics, heatmap data, rage-click alerts, and WebSocket updates.
+- Designed a PostgreSQL-backed event pipeline for raw session events and computed session summaries.
+- Implemented real-time dashboard updates through WebSockets, allowing new session activity to appear without manual refresh.
+- Built rage-click detection based on repeated clicks on the same element within a time and distance threshold.
+- Added replay visualization, click-density heatmaps, session status tracking, and key engagement metrics.
 
-| System | Mission | Core Signal |
-|---|---|---|
-| **Full-Stack Engineering** | Build responsive interfaces connected to reliable backend systems | React, TypeScript, FastAPI, REST APIs |
-| **Real-Time Analytics** | Transform raw interaction events into live, actionable product insight | WebSockets, PostgreSQL, Event Pipelines |
-| **Applied AI** | Use AI where it adds practical value—not just as a label | NLP, LLM APIs, scikit-learn |
-| **Cloud and Deployment** | Ship systems that are accessible, observable, and usable | Vercel, Render, Firebase, Cloud Platforms |
-| **Human-Centered Design** | Build for real people, real constraints, and real outcomes | UX Analytics, UI/UX, Product Thinking |
+[Live demo](https://ux-session-replay-analytics.vercel.app) · [API documentation](https://ux-portal-backend.onrender.com/docs) · [Repository](https://github.com/Srinidhi-111/UX-Session-Replay-Analytics)
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
+### StreetGuard
 
-## Featured missions
+A parametric income-protection prototype for gig delivery workers affected by verified weather and city-level disruptions.
 
-### `MISSION_01` — UX Session Replay Analytics
+**Tech stack:** React, Tailwind CSS, FastAPI, Python, Firebase, OpenWeatherMap, WAQI, Razorpay Test Mode, scikit-learn, Vercel, Railway
 
-> **A real-time UX intelligence platform that reveals not only what users do, but where they struggle and why.**
+- Designed and developed an end-to-end prototype for income protection workflows for gig delivery workers.
+- Built the product flow around worker onboarding, zone risk, policy coverage, disruption monitoring, claim initiation, and payout simulation.
+- Designed weather- and city-disruption trigger logic for rainfall, extreme heat, air quality, platform downtime, and manual disruption events.
+- Integrated or architected external data, Firebase, backend, machine-learning, and sandbox-payment components for the MVP workflow.
+- Created a loss-simulation dashboard to show potential disruption-related income loss and coverage scenarios.
+- Built for **Guidewire DEVTrails 2026**.
 
-**Mission capabilities**
+> **Note:** StreetGuard is a hackathon prototype. It does not issue regulated insurance policies or process real payouts. Test-mode and simulated integrations are used where production access is not available.
 
-- Records and replays user interaction sessions using `rrweb`
-- Detects rage clicks in real time with a sliding-window algorithm
-- Streams live updates to the dashboard through `WebSockets`
-- Provides replay timelines, click-density heatmaps, session health, alerts, and core metrics
-- Uses a scalable event pipeline: client SDK → FastAPI ingestion → PostgreSQL → real-time analytics portal
-- Uses `navigator.sendBeacon` for resilient event delivery, list virtualization for scale, and a Web Worker to protect UI responsiveness
+[Repository](https://github.com/Srinidhi-111/streetguard) · [Pitch deck](https://docs.google.com/presentation/d/1v2v14qv_H5xEEdcNhWL0Ht9p7J6llaco/edit?usp=sharing&ouid=118022404412997280067&rtpof=true&sd=true)
 
-**System stack**
+### Meiyaa
 
-```text
-React -  TypeScript -  Vite -  Tailwind CSS -  FastAPI -  PostgreSQL - 
-WebSockets -  rrweb -  rrweb-player -  Vitest -  Vercel -  Render
-```
+A Tamil-English code-mixed scam and misinformation detector for WhatsApp forwards and SMS.
 
-<div align="center">
+**Tech stack:** Python, FastAPI, React, Vite, sentence-transformers, NLP, JSON
 
-[ LIVE PORTAL ](https://ux-session-replay-analytics.vercel.app) &nbsp;•&nbsp;
-[ BACKEND API ](https://ux-portal-backend.onrender.com/docs) &nbsp;•&nbsp;
-[ SOURCE CODE ](https://github.com/Srinidhi-111/UX-Session-Replay-Analytics)
+- Built an explainable message-risk analysis tool for Tamil script, Tanglish, and English code-mixed messages.
+- Implemented a workflow that produces a risk score, flagged suspicious phrases, and a plain-language explanation.
+- Designed a curated seed dataset covering job scams, fake loans, OTP phishing, health misinformation, lottery scams, and safe-control messages.
+- Used privacy-conscious reconstructed examples informed by public scam and misinformation advisories rather than private user messages.
+- Built for **OpenHack26**, a FOSS Community hackathon.
 
-</div>
+[Repository](https://github.com/Srinidhi-111/OpenHack26)
 
----
+### AI Stock Market Bot
 
-### `MISSION_02` — StreetGuard
+A Python dashboard for historical market-data exploration and AI-assisted stock analysis.
 
-> **A parametric income-protection prototype for gig delivery workers affected by weather and city-level disruptions.**
+**Tech stack:** Python, Streamlit, Groq API, yfinance, Pandas, Plotly
 
-**Mission capabilities**
+- Built an interactive dashboard that retrieves stock-market data and displays price metrics, historical trends, and volume information.
+- Processed market data with Pandas and created interactive price visualizations using Plotly.
+- Integrated the Groq API to generate AI-assisted market summaries using selected stock data and market context.
+- Added validation and error handling for invalid symbols, unavailable data, and AI API failures.
+- Designed for educational market exploration and not for financial advice.
 
-- Models zone-based disruption triggers for weather, heat, air quality, and operational downtime
-- Designs automated policy, eligibility, claim-initiation, and payout workflows
-- Uses worker personas and local disruption patterns to shape product requirements
-- Integrates a full-stack architecture using React, FastAPI, Firebase, external data APIs, and sandbox payment workflows
-- Explores transparent premium calculation and claim-risk checks for a parametric-insurance model
-
-**System stack**
-
-```text
-React -  Tailwind CSS -  FastAPI -  Python -  Firebase -  OpenWeatherMap - 
-WAQI -  Razorpay Test Mode -  scikit-learn -  Vercel -  Railway
-```
-
-> **Prototype notice:** StreetGuard was created as a hackathon MVP. Production insurance underwriting, regulated policy issuance, and real payouts are outside the prototype scope. Test/simulated integrations are clearly separated from production claims and payments.
-
-<div align="center">
-
-[ SOURCE CODE ](https://github.com/Srinidhi-111/streetguard) &nbsp;•&nbsp;
-[ PITCH DECK ](https://docs.google.com/presentation/d/1v2v14qv_H5xEEdcNhWL0Ht9p7J6llaco/edit?usp=sharing&ouid=118022404412997280067&rtpof=true&sd=true)
-
-</div>
-
----
-
-### `MISSION_03` — Meiyaa
-
-> **A code-mixed Tamil-English scam and misinformation detector designed for the way people actually communicate.**
-
-**Mission capabilities**
-
-- Evaluates Tamil script, Tanglish, and English WhatsApp/SMS-style messages
-- Produces a risk score, flagged signals, and a human-readable explanation
-- Focuses on explainable outputs rather than an unexplained classification label
-- Covers job scams, fake loans, OTP phishing, health misinformation, and lottery fraud
-- Uses privacy-conscious curated examples derived from public advisories—not private messages
-
-**System stack**
-
-```text
-Python -  FastAPI -  React -  Vite -  sentence-transformers -  NLP -  JSON
-```
-
-<div align="center">
-
-[ SOURCE CODE ](https://github.com/Srinidhi-111/OpenHack26)
-
-</div>
-
----
-
-### `MISSION_04` — AI Stock Market Bot
-
-> **A Python dashboard for market-data exploration and AI-assisted analysis.**
-
-**Mission capabilities**
-
-- Retrieves historical market data and displays interactive trends
-- Computes market metrics using Pandas
-- Visualizes price movements with Plotly
-- Uses a Groq-powered LLM workflow for AI-assisted market summaries
-- Includes validation and error handling for unavailable data or invalid symbols
-
-**System stack**
-
-```text
-Python -  Streamlit -  Groq API -  yfinance -  Pandas -  Plotly
-```
-
-> Educational analysis project only. It does not provide financial advice.
-
-<div align="center">
-
-[ SOURCE CODE — COMING SOON ](#)
-
-</div>
+[Repository](YOUR_STOCK_BOT_REPOSITORY_LINK)
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
-## Systems I work with
+## Technical focus
 
-<div align="center">
+| Area | Technologies |
+|---|---|
+| **Languages** | Python, TypeScript, JavaScript, Java, C, SQL |
+| **Frontend** | React, Vite, HTML, CSS, Tailwind CSS |
+| **Backend** | FastAPI, REST APIs, WebSockets |
+| **Data** | PostgreSQL, Firebase, Pandas |
+| **AI and NLP** | sentence-transformers, Groq API, scikit-learn, Generative AI |
+| **Cloud and deployment** | Vercel, Render, Railway, Microsoft Azure, Google Cloud Platform, Oracle Cloud Infrastructure |
+| **Tools** | Git, GitHub, VS Code, Figma, Framer |
 
-<img src="https://skillicons.dev/icons?i=python,java,c,js,ts,html,css,sql&theme=dark&perline=8" alt="Programming languages" />
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=react,fastapi,firebase,postgres,git,github,tailwind,vite&theme=dark&perline=8" alt="Full stack and backend tools" />
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=azure,gcp,vercel,figma,vscode&theme=dark&perline=8" alt="Cloud deployment and design tools" />
+## Currently exploring
 
-</div>
-
-<br/>
-
-```yaml
-primary_stack:
-  frontend: [React, TypeScript, Tailwind_CSS, Vite]
-  backend: [FastAPI, Python, REST_APIs, WebSockets]
-  data: [PostgreSQL, Firebase, Event_Analytics]
-  ai: [NLP, sentence-transformers, Groq_API, scikit-learn]
-  deployment: [Vercel, Render, Railway, Azure, GCP]
-
-operating_principles:
-  - Build real systems, not only prototypes
-  - Make technical decisions explainable
-  - Respect privacy and security by design
-  - Ship, test, measure, improve
-```
+- Backend architecture and scalable API design
+- Privacy-aware analytics and event-processing systems
+- Artificial intelligence for practical product workflows
+- Cloud deployment, observability, testing, and application security
+- Data structures and algorithms
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
-## Current trajectory
-
-```text
-[████████████████████░░] Full-stack architecture
-[█████████████████░░░░░] Backend engineering and API design
-[███████████████░░░░░░░] Data structures and algorithms
-[████████████████░░░░░░] Cloud deployment and observability
-[█████████████████░░░░░] Applied AI and NLP systems
-[██████████████░░░░░░░░] Privacy-aware analytics engineering
-```
-
-```text
-NEXT_TRANSMISSION:
-→ Build more production-minded backend systems
-→ Strengthen testing, observability, and deployment pipelines
-→ Explore AI agents that solve measurable product problems
-→ Collaborate on engineering teams that build for real users
-```
-
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/transmission.svg" width="100%" alt="Animated final space transmission" />
-
-## Contribution telemetry
+## GitHub activity
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Srinidhi-111&show_icons=true&hide_border=true&bg_color=030712&title_color=22D3EE&icon_color=F472B6&text_color=EAF7FF&ring_color=7C3AED" alt="GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Srinidhi-111&show_icons=true&hide_border=true&bg_color=0B1020&title_color=8DD7FF&icon_color=9BAFE1&text_color=E8EDF7&ring_color=5B4B8A" alt="Srinidhi's GitHub statistics" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srinidhi-111&layout=compact&hide_border=true&bg_color=030712&title_color=22D3EE&text_color=EAF7FF" alt="Top languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinidhi-111&bg_color=030712&color=EAF7FF&line=7C3AED&point=22D3EE&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srinidhi-111&layout=compact&hide_border=true&bg_color=0B1020&title_color=8DD7FF&text_color=E8EDF7" alt="Srinidhi's top languages" />
 
 </div>
 
-## Final transmission
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinidhi-111&bg_color=0B1020&color=E8EDF7&line=6477B9&point=8DD7FF&area=true&hide_border=true" width="100%" alt="Srinidhi's GitHub contribution activity graph" />
+
+</div>
+
+## Connect
 
 <div align="center">
 
-```text
-I do not just study technology.
-I build with it, test it, document it, and turn it into systems people can use.
-```
-
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/command-center.svg" width="100%" alt="Srinidhi R command center footer" />
+[LinkedIn](https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/) · [Email](mailto:srinidhir.cs24@bitsathy.ac.in) · [GitHub](https://github.com/Srinidhi-111)
 
 </div>
