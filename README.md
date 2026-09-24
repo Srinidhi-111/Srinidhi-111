@@ -110,13 +110,11 @@ _Repository will be published soon._
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
-## GitHub activity
+## Building in public
 
-<div align="center">
+I use GitHub to document experiments, prototypes, hackathon projects, and evolving software systems. The repositories above reflect work I have built, explored, and continue to improve.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinidhi-111&bg_color=0B1020&color=E8EDF7&line=6477B9&point=B8C1D3&area=true&hide_border=true" width="100%" alt="Srinidhi's GitHub contribution activity graph" />
-
-</div>
+<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
 ## Connect
 
