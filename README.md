@@ -38,18 +38,21 @@ I am particularly interested in software that combines thoughtful design, reliab
 
 ### UX Session Replay Analytics
 
-A real-time UX analytics platform that records session events, detects rage clicks, visually replays user journeys, and helps teams identify usability friction.
+> **Status: Under active development — fifth-semester mini project**
 
-**Tech stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, PostgreSQL, WebSockets, rrweb, rrweb-player, Vitest, Vercel, Render
+A privacy-aware UX analytics platform being built to record approved session events, detect user-frustration signals such as rage clicks, and help developers understand where users experience friction.
 
-- Built a client-side tracking workflow for interaction events and session recording using `rrweb`.
-- Developed FastAPI endpoints for event ingestion, session listing, replay retrieval, analytics metrics, heatmap data, rage-click alerts, and WebSocket updates.
-- Designed a PostgreSQL-backed event pipeline for raw session events and computed session summaries.
-- Implemented real-time dashboard updates through WebSockets, allowing new session activity to appear without manual refresh.
-- Built rage-click detection based on repeated clicks on the same element within a time and distance threshold.
-- Added replay visualization, click-density heatmaps, session status tracking, and key engagement metrics.
+**Planned stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, PostgreSQL, WebSockets, rrweb, Vitest, Vercel, Render
 
-_Repository will be completed soon._
+**Current focus**
+
+- Building a client-side workflow for session event capture and replay.
+- Designing backend APIs for event ingestion, session summaries, replay retrieval, and analytics.
+- Implementing rage-click detection based on repeated clicks within a time and distance threshold.
+- Designing privacy safeguards, including masking or excluding passwords, OTPs, payment information, authentication tokens, and sensitive form input.
+- Building a dashboard for session replay, click-density heatmaps, alerts, and engagement metrics.
+
+_The project will be published as a complete portfolio project after implementation, testing, privacy review, and deployment are finished._
 
 ### StreetGuard
 
