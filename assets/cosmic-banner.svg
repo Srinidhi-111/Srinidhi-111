@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title description">
-  <title id="title">A calm cosmic banner for Srinidhi R</title>
-  <desc id="description">A dark space scene with a subtle nebula, fine constellation lines, softly glowing stars, and an orbiting planet.</desc>
+  <title id="title">Srinidhi R — Exploring ideas, systems, and technology through thoughtful software</title>
+  <desc id="description">A calm dark-space banner with a subtle nebula, fine constellation lines, softly glowing stars, and an orbiting planet.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -134,7 +134,7 @@
   <rect width="1600" height="500" rx="20" fill="url(#nebulaOne)"/>
   <rect width="1600" height="500" rx="20" fill="url(#nebulaTwo)"/>
 
-  <!-- Subtle stars -->
+  <!-- Soft animated star field -->
   <g>
     <circle class="star" cx="74" cy="64" r="1.6"/>
     <circle class="star slow" cx="174" cy="168" r="1.2"/>
@@ -192,14 +192,22 @@
     <circle cx="1394" cy="241" r="4.2" fill="#DDE7FF" filter="url(#softGlow)"/>
   </g>
 
-  <!-- Text -->
-  <g transform="translate(115 205)">
-    <text class="headline" x="0" y="0" font-size="58">Srinidhi R</text>
-    <text class="subheadline" x="4" y="52" font-size="15">FULL-STACK DEVELOPMENT · BACKEND SYSTEMS · APPLIED AI</text>
+  <!-- Main text -->
+  <g transform="translate(108 190)">
+    <text class="headline" x="0" y="0" font-size="72">Srinidhi R</text>
 
-    <line x1="4" y1="84" x2="670" y2="84" stroke="#AAB6CE" stroke-opacity=".34"/>
-    <text x="4" y="126" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#C7D2E4">
-      Building thoughtful software for real people and real problems.
+    <text class="subheadline" x="5" y="68" font-size="17">
+      EXPLORING IDEAS, SYSTEMS, AND TECHNOLOGY
+    </text>
+
+    <text class="subheadline" x="5" y="94" font-size="17">
+      THROUGH THOUGHTFUL SOFTWARE
+    </text>
+
+    <line x1="5" y1="122" x2="760" y2="122" stroke="#AAB6CE" stroke-opacity=".34"/>
+
+    <text x="5" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#D8E1F0">
+      Building, learning, and finding better ways to solve real problems.
     </text>
   </g>
 
