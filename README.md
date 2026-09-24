@@ -10,9 +10,11 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Srinidhi%20R-0B1020?style=flat-square&logo=linkedin&logoColor=8DD7FF)](https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/)
-[![Email](https://img.shields.io/badge/Email-Connect-0B1020?style=flat-square&logo=gmail&logoColor=DDE7FF)](mailto:srinidhir.cs24@bitsathy.ac.in)
-[![GitHub](https://img.shields.io/badge/GitHub-Srinidhi--111-0B1020?style=flat-square&logo=github&logoColor=DDE7FF)](https://github.com/Srinidhi-111)
+<a href="https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/"><strong>LinkedIn</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:srinidhir.cs24@bitsathy.ac.in"><strong>Email</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/Srinidhi-111"><strong>GitHub</strong></a>
 
 </div>
 
@@ -24,7 +26,13 @@ I learn best by building. I enjoy taking an idea from problem discovery to a wor
 
 I am particularly interested in software that combines thoughtful design, reliable engineering, real-time information, and practical problem-solving.
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work constellation" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work constellation">
+  </picture>
+</p>
 
 ## Featured projects
 
@@ -41,7 +49,7 @@ A real-time UX analytics platform that records session events, detects rage clic
 - Built rage-click detection based on repeated clicks on the same element within a time and distance threshold.
 - Added replay visualization, click-density heatmaps, session status tracking, and key engagement metrics.
 
-[Live demo](https://ux-session-replay-analytics.vercel.app) · [API documentation](https://ux-portal-backend.onrender.com/docs) · [Repository](https://github.com/Srinidhi-111/UX-Session-Replay-Analytics)
+_Repository will be completed soon._
 
 ### StreetGuard
 
@@ -88,7 +96,13 @@ A Python dashboard for historical market-data exploration and AI-assisted stock 
 
 _Repository will be published soon._
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider">
+  </picture>
+</p>
 
 ## Technical focus
 
@@ -110,22 +124,44 @@ _Repository will be published soon._
 - Cloud deployment, observability, testing, and application security
 - Data structures and algorithms
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider">
+  </picture>
+</p>
 
 ## Building in public
 
 I use GitHub to document experiments, prototypes, hackathon projects, and evolving software systems. The repositories above reflect work I have built, explored, and continue to improve.
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider">
+  </picture>
+</p>
 
 ## Connect
 
 <div align="center">
 
-[LinkedIn](https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/) · [Email](mailto:srinidhir.cs24@bitsathy.ac.in) · [GitHub](https://github.com/Srinidhi-111)
+<a href="https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/">LinkedIn</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:srinidhir.cs24@bitsathy.ac.in">Email</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/Srinidhi-111">GitHub</a>
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg" width="100%" alt="Still learning, still building, still looking ahead" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula-light.svg">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg" width="100%" alt="Still learning, still building, still looking ahead">
+  </picture>
+</p>
