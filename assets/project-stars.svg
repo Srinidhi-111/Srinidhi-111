@@ -1,22 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="220" viewBox="0 0 1600 220" role="img" aria-labelledby="title description">
-  <title id="title">Selected work constellation</title>
-  <desc id="description">A quiet space-themed divider with a moving orbit line and a constellation introducing selected projects.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180" role="img" aria-label="Subtle constellation stars">
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="50%" stop-color="#12172A"/>
+      <stop offset="50%" stop-color="#11162A"/>
       <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
 
-    <linearGradient id="orbitLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AAB3C5" stop-opacity="0"/>
-      <stop offset="32%" stop-color="#AAB3C5" stop-opacity=".48"/>
-      <stop offset="68%" stop-color="#737B98" stop-opacity=".48"/>
-      <stop offset="100%" stop-color="#737B98" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -25,27 +15,19 @@
     </filter>
 
     <style>
-      .orbiter {
-        animation: orbit 6.8s linear infinite;
-      }
-
-      .center-star {
-        animation: pulse 3.6s ease-in-out infinite;
-      }
-
       .star {
         fill: #E8EDF7;
         transform-box: fill-box;
         transform-origin: center;
-        animation: twinkle 4.6s ease-in-out infinite;
+        animation: twinkle 4.5s ease-in-out infinite;
       }
 
       .slow {
-        animation-delay: 1.4s;
+        animation-delay: 1.3s;
       }
 
       .slower {
-        animation-delay: 2.7s;
+        animation-delay: 2.6s;
       }
 
       .line {
@@ -57,47 +39,15 @@
         animation: trace 20s linear infinite;
       }
 
-      @keyframes orbit {
-        0% {
-          transform: translateX(-90px);
-          opacity: 0;
-        }
-
-        12% {
-          opacity: .72;
-        }
-
-        88% {
-          opacity: .72;
-        }
-
-        100% {
-          transform: translateX(1690px);
-          opacity: 0;
-        }
-      }
-
-      @keyframes pulse {
-        0%, 100% {
-          opacity: .36;
-          transform: scale(.82);
-        }
-
-        50% {
-          opacity: .86;
-          transform: scale(1.2);
-        }
-      }
-
       @keyframes twinkle {
         0%, 100% {
-          opacity: .22;
+          opacity: .24;
           transform: scale(.74);
         }
 
         50% {
-          opacity: .94;
-          transform: scale(1.28);
+          opacity: .95;
+          transform: scale(1.3);
         }
       }
 
@@ -109,29 +59,29 @@
     </style>
   </defs>
 
-  <rect width="1600" height="220" rx="16" fill="url(#background)"/>
+  <rect width="1600" height="180" rx="16" fill="url(#background)"/>
 
-  <!-- Integrated orbit divider -->
-  <path d="M0 36 C300 4 520 67 800 36 C1080 5 1300 67 1600 36"
-        fill="none"
-        stroke="url(#orbitLine)"
-        stroke-width="1.35"/>
-
-  <circle class="center-star" cx="800" cy="36" r="4.2" fill="#DDE3EE" opacity=".78" filter="url(#glow)"/>
-  <circle class="orbiter" cx="0" cy="36" r="3.2" fill="#C8D0DE" opacity=".70" filter="url(#glow)"/>
-
-  <!-- Constellation -->
-  <path class="line" d="M260 135 L430 85 L615 140 L800 75 L1008 139 L1215 90 L1380 136"/>
+  <path class="line" d="M260 110 L430 55 L615 112 L800 46 L1008 111 L1215 60 L1380 109"/>
 
   <g>
-    <circle class="star" cx="260" cy="135" r="3.1" filter="url(#glow)"/>
-    <circle class="star slow" cx="430" cy="85" r="3.6" filter="url(#glow)"/>
-    <circle class="star slower" cx="615" cy="140" r="3.1" filter="url(#glow)"/>
-    <circle class="star" cx="800" cy="75" r="4.2" filter="url(#glow)"/>
-    <circle class="star slow" cx="1008" cy="139" r="3.3" filter="url(#glow)"/>
-    <circle class="star slower" cx="1215" cy="90" r="3.6" filter="url(#glow)"/>
-    <circle class="star" cx="1380" cy="136" r="3.1" filter="url(#glow)"/>
+    <circle class="star" cx="260" cy="110" r="3.2" filter="url(#glow)"/>
+    <circle class="star slow" cx="430" cy="55" r="3.6" filter="url(#glow)"/>
+    <circle class="star slower" cx="615" cy="112" r="3.1" filter="url(#glow)"/>
+    <circle class="star" cx="800" cy="46" r="4.2" filter="url(#glow)"/>
+    <circle class="star slow" cx="1008" cy="111" r="3.3" filter="url(#glow)"/>
+    <circle class="star slower" cx="1215" cy="60" r="3.6" filter="url(#glow)"/>
+    <circle class="star" cx="1380" cy="109" r="3.1" filter="url(#glow)"/>
   </g>
 
   <text x="800"
-        y="192"
+        y="154"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="18"
+        letter-spacing="4"
+        fill="#B8C1D3">
+    SELECTED WORK
+  </text>
+
+  <rect x="1" y="1" width="1598" height="178" rx="16" fill="none" stroke="#AAB3C5" stroke-opacity=".12"/>
+</svg>
