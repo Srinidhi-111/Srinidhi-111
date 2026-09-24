@@ -20,7 +20,6 @@ I learn best by building. I enjoy taking an idea from problem discovery to a wor
 
 I am particularly interested in software that combines thoughtful design, reliable engineering, real-time information, and practical problem-solving.
 
-<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work constellation" />
 
 ## Featured projects
