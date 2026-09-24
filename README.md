@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Full-Stack Developer, Backend Systems, and Applied AI" />
+  <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Exploring ideas, systems, and technology through thoughtful software" />
 </div>
 
 <br/>
@@ -14,13 +14,15 @@
 
 ## Hi, I’m Srinidhi
 
-I am a Computer Science and Engineering student at **Bannari Amman Institute of Technology** with a strong interest in full-stack development, backend engineering, real-time analytics, cloud deployment, and AI-enabled software.
+I am a Computer Science and Engineering student at **Bannari Amman Institute of Technology**, exploring ideas across software development, artificial intelligence, cloud technologies, cybersecurity, UI/UX, and data-driven applications.
 
-I enjoy taking an idea from problem discovery to a working product: understanding user needs, designing the experience, building APIs and data flows, integrating external services, deploying applications, and improving them through testing and iteration.
+I learn best by building. I enjoy taking an idea from problem discovery to a working product: understanding people, designing useful experiences, building the system behind them, integrating technologies, and improving it through testing and iteration.
 
-My current focus is building thoughtful, reliable software for real users and real-world problems.
+I am particularly interested in software that combines thoughtful design, reliable engineering, real-time information, and practical problem-solving.
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
+
+<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work constellation" />
 
 ## Featured projects
 
@@ -45,7 +47,7 @@ A parametric income-protection prototype for gig delivery workers affected by ve
 
 **Tech stack:** React, Tailwind CSS, FastAPI, Python, Firebase, OpenWeatherMap, WAQI, Razorpay Test Mode, scikit-learn, Vercel, Railway
 
-- Designed and developed an end-to-end prototype for income protection workflows for gig delivery workers.
+- Designed and developed an end-to-end prototype for income-protection workflows for gig delivery workers.
 - Built the product flow around worker onboarding, zone risk, policy coverage, disruption monitoring, claim initiation, and payout simulation.
 - Designed weather- and city-disruption trigger logic for rainfall, extreme heat, air quality, platform downtime, and manual disruption events.
 - Integrated or architected external data, Firebase, backend, machine-learning, and sandbox-payment components for the MVP workflow.
@@ -82,7 +84,7 @@ A Python dashboard for historical market-data exploration and AI-assisted stock 
 - Added validation and error handling for invalid symbols, unavailable data, and AI API failures.
 - Designed for educational market exploration and not for financial advice.
 
-[Repository](YOUR_STOCK_BOT_REPOSITORY_LINK)
+_Repository will be published soon._
 
 <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg" width="100%" alt="Cosmic orbit divider" />
 
@@ -131,3 +133,7 @@ A Python dashboard for historical market-data exploration and AI-assisted stock 
 [LinkedIn](https://www.linkedin.com/in/srinidhi-rajesh-kanna-b39150339/) · [Email](mailto:srinidhir.cs24@bitsathy.ac.in) · [GitHub](https://github.com/Srinidhi-111)
 
 </div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg" width="100%" alt="Still learning, still building, still looking ahead" />
