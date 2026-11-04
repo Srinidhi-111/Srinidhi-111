@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner-light.svg">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R — Exploring ideas, systems, and technology through thoughtful software">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg" width="100%" alt="Srinidhi R. Full-stack, AI, security and design. I build software that is honest about what it does.">
   </picture>
 </div>
 
@@ -30,7 +30,7 @@ I am particularly interested in software that combines thoughtful design, reliab
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars-light.svg">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work constellation">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg" width="100%" alt="Selected work: UX Session Replay, Jawabdehi, StreetGuard and Meiyaa">
   </picture>
 </p>
 
@@ -38,21 +38,37 @@ I am particularly interested in software that combines thoughtful design, reliab
 
 ### UX Session Replay Analytics
 
-> **Status: Under active development — fifth-semester mini project**
+> **Live · Patent application filed · Fifth-semester mini project**
 
-A privacy-aware UX analytics platform being built to record approved session events, detect user-frustration signals such as rage clicks, and help developers understand where users experience friction.
+A privacy-aware UX analytics platform that records real user sessions, replays them, and automatically flags frustration signals such as rage clicks, so developers can see exactly where people struggle.
 
-**Planned stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, PostgreSQL, WebSockets, rrweb, Vitest, Vercel, Render
+**Tech stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, PostgreSQL (Neon), WebSockets, rrweb, Vitest, Vercel, Render
 
-**Current focus**
+- Built a sliding-window rage-click detector with four severity levels, covered by automated tests.
+- Recorded full sessions with rrweb and built a replay viewer with rage-click markers on the timeline.
+- Built a live dashboard over WebSockets: metric cards, click heatmap, severity alerts, session timeline and filters.
+- Deployed the full pipeline on Vercel, Render and Neon, and fixed real production issues such as idle-connection drops and a concurrent-insert race condition.
+- Worked on the backend in a team of three. A patent application has been filed and a research paper is in progress.
 
-- Building a client-side workflow for session event capture and replay.
-- Designing backend APIs for event ingestion, session summaries, replay retrieval, and analytics.
-- Implementing rage-click detection based on repeated clicks within a time and distance threshold.
-- Designing privacy safeguards, including masking or excluding passwords, OTPs, payment information, authentication tokens, and sensitive form input.
-- Building a dashboard for session replay, click-density heatmaps, alerts, and engagement metrics.
+[Live demo](https://ux-session-replay-analytics.vercel.app) · [Repository](https://github.com/Srinidhi-111/UX-Session-Replay-Analytics)
 
-_The project will be published as a complete portfolio project after implementation, testing, privacy review, and deployment are finished._
+### Jawabdehi
+
+> **7th place · HACKCACHE'26, national-level hackathon · built solo in about 24 hours**
+
+A citizen-powered government accountability platform. Jawabdehi means "accountability" in Hindi. A complaint against an official is kept in an append-only, hash-chained record that nobody can quietly rewrite, and it moves up a chain of authorities automatically when an office stays silent.
+
+**Tech stack:** React, Vite, Tailwind CSS, Web Crypto (SHA-256), IndexedDB, Vercel serverless functions, Anthropic API
+
+- Built a tamper-evident record: every event is chained with SHA-256, and a "Verify this record" check finds the exact entry that was changed after a tamper test.
+- Wrote an escalation engine that works out each complaint's state from its events alone and moves it up the chain when acknowledgement or response deadlines pass.
+- Kept privacy rules in one place, so each role (citizen, official, reviewer, public) sees only what it is allowed to, and confirmed with a leak test.
+- Added an AI-drafted report in which every field must quote the citizen's own words, checked on the server, with a rule-based fallback when no key is set.
+- Built legal-help routes that put free legal aid options first.
+
+> **Note:** Jawabdehi is a hackathon prototype. Officials, offices, complaints and lawyers are all made up, time is simulated with demo controls, and data stays in the browser.
+
+[Repository](https://github.com/Srinidhi-111/HACKCACHE-26)
 
 ### StreetGuard
 
@@ -65,7 +81,7 @@ A parametric income-protection prototype for gig delivery workers affected by ve
 - Designed weather- and city-disruption trigger logic for rainfall, extreme heat, air quality, platform downtime, and manual disruption events.
 - Integrated or architected external data, Firebase, backend, machine-learning, and sandbox-payment components for the MVP workflow.
 - Created a loss-simulation dashboard to show potential disruption-related income loss and coverage scenarios.
-- Built for **Guidewire DEVTrails 2026**.
+- Built for **Guidewire DEVTrails 2026** with Team Code4ce and reached the **Diamond tier**, roughly the top 15% of about 1,800 teams.
 
 > **Note:** StreetGuard is a hackathon prototype. It does not issue regulated insurance policies or process real payouts. Test-mode and simulated integrations are used where production access is not available.
 
@@ -126,6 +142,7 @@ _Repository will be published soon._
 - Artificial intelligence for practical product workflows
 - Cloud deployment, observability, testing, and application security
 - Data structures and algorithms
+- Agentic AI, and building **Undertow**, a radar for risky packages in a project
 
 <p align="center">
   <picture>
