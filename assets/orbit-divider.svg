@@ -1,70 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="74" viewBox="0 0 1600 74" role="img" aria-label="Subtle cosmic orbit divider">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="70" viewBox="0 0 1600 70" role="img" aria-label="A comet crossing a thin orbit line">
   <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AAB3C5" stop-opacity="0"/>
-      <stop offset="35%" stop-color="#AAB3C5" stop-opacity=".58"/>
-      <stop offset="65%" stop-color="#737B98" stop-opacity=".58"/>
-      <stop offset="100%" stop-color="#737B98" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
+    <filter id="bigblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <filter id="midblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#AFC0E8" stop-opacity="0"/><stop offset=".5" stop-color="#AFC0E8" stop-opacity=".45"/><stop offset="1" stop-color="#AFC0E8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2CF7A" stop-opacity="0"/><stop offset="1" stop-color="#F2CF7A" stop-opacity=".9"/>
+    </linearGradient>
     <style>
-      .orbiter {
-        animation: orbit 6s linear infinite;
-      }
-
-      .center {
-        animation: pulse 3.4s ease-in-out infinite;
-      }
-
-      @keyframes orbit {
-        0% {
-          transform: translateX(-100px);
-          opacity: 0;
-        }
-
-        12% {
-          opacity: .72;
-        }
-
-        88% {
-          opacity: .72;
-        }
-
-        100% {
-          transform: translateX(1700px);
-          opacity: 0;
-        }
-      }
-
-      @keyframes pulse {
-        0%, 100% {
-          opacity: .38;
-          transform: scale(.82);
-        }
-
-        50% {
-          opacity: .82;
-          transform: scale(1.22);
-        }
-      }
+    @keyframes tw { 0%,100% { opacity:.15 } 50% { opacity:1 } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:.55; transform: scale(.8) } 50% { opacity:1; transform: scale(1.15) } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      .comet { animation: comet 7s cubic-bezier(.45,0,.55,1) infinite; }
+      @keyframes comet { 0% { transform: translateX(-220px); opacity:0 } 8% { opacity:1 } 92% { opacity:1 } 100% { transform: translateX(1640px); opacity:0 } }
     </style>
   </defs>
-
-  <rect width="1600" height="74" fill="#0B1020"/>
-
-  <path d="M0 37 C300 2 520 70 800 37 C1080 4 1300 70 1600 37"
-        fill="none"
-        stroke="url(#line)"
-        stroke-width="1.4"/>
-
-  <circle class="center" cx="800" cy="37" r="4.2" fill="#DDE3EE" opacity=".78" filter="url(#glow)"/>
-  <circle class="orbiter" cx="0" cy="37" r="3.2" fill="#C8D0DE" opacity=".70" filter="url(#glow)"/>
+  <path d="M0 35 Q800 18 1600 35" fill="none" stroke="url(#fadeLine)" stroke-width="1.2"/>
+  <circle cx="996.6" cy="51.9" r="1.0" fill="#FFFFFF" opacity="0.57"/>
+<circle cx="1043.3" cy="37.1" r="1.0" fill="#FFFFFF" opacity="0.48"/>
+<circle cx="1038.4" cy="63.1" r="0.5" fill="#FFFFFF" opacity="0.44"/>
+<circle cx="609.2" cy="7.1" r="0.6" fill="#FFFFFF" opacity="0.29" style="animation:tw 6.7s ease-in-out 1.7s infinite"/>
+<circle cx="1225.2" cy="11.2" r="1.0" fill="#FFFFFF" opacity="0.32"/>
+<circle cx="711.7" cy="9.3" r="1.0" fill="#FFFFFF" opacity="0.29"/>
+<circle cx="1536.2" cy="11.6" r="0.6" fill="#FFFFFF" opacity="0.41"/>
+<circle cx="862.8" cy="47.4" r="0.6" fill="#FFFFFF" opacity="0.36"/>
+<circle cx="315.0" cy="67.6" r="0.8" fill="#FFFFFF" opacity="0.41" style="animation:tw 3.6s ease-in-out 1.0s infinite"/>
+<circle cx="104.2" cy="21.1" r="1.0" fill="#FFFFFF" opacity="0.53" style="animation:tw 3.3s ease-in-out 4.2s infinite"/>
+<circle cx="568.6" cy="21.4" r="1.2" fill="#FFFFFF" opacity="0.42" style="animation:tw 3.2s ease-in-out 4.2s infinite"/>
+<circle cx="1560.2" cy="1.6" r="1.2" fill="#FFFFFF" opacity="0.44" style="animation:tw 4.7s ease-in-out 3.3s infinite"/>
+<circle cx="602.2" cy="58.9" r="0.8" fill="#FFFFFF" opacity="0.31" style="animation:tw 3.8s ease-in-out 5.7s infinite"/>
+<circle cx="1209.2" cy="65.1" r="0.8" fill="#FFFFFF" opacity="0.43" style="animation:tw 6.1s ease-in-out 3.1s infinite"/>
+<circle cx="172.9" cy="52.4" r="1.0" fill="#FFFFFF" opacity="0.44" style="animation:tw 6.9s ease-in-out 2.6s infinite"/>
+<circle cx="333.6" cy="35.9" r="0.7" fill="#FFFFFF" opacity="0.67" style="animation:tw 5.2s ease-in-out 5.5s infinite"/>
+<circle cx="499.9" cy="22.2" r="0.6" fill="#FFFFFF" opacity="0.62"/>
+<circle cx="1153.8" cy="21.7" r="0.8" fill="#FFFFFF" opacity="0.35" style="animation:tw 5.1s ease-in-out 5.9s infinite"/>
+<circle cx="649.4" cy="16.6" r="1.0" fill="#FFFFFF" opacity="0.43" style="animation:tw 3.6s ease-in-out 3.9s infinite"/>
+<circle cx="1566.5" cy="44.7" r="1.0" fill="#FFFFFF" opacity="0.49"/>
+<circle cx="208.9" cy="51.2" r="0.6" fill="#FFFFFF" opacity="0.55"/>
+<circle cx="170.6" cy="30.4" r="0.6" fill="#FFFFFF" opacity="0.31" style="animation:tw 6.7s ease-in-out 0.8s infinite"/>
+<circle cx="992.6" cy="11.9" r="1.0" fill="#FFFFFF" opacity="0.47" style="animation:tw 4.9s ease-in-out 4.4s infinite"/>
+<circle cx="465.6" cy="28.3" r="0.6" fill="#FFFFFF" opacity="0.33"/>
+<circle cx="850.8" cy="12.6" r="0.8" fill="#FFFFFF" opacity="0.65" style="animation:tw 5.1s ease-in-out 3.0s infinite"/>
+<circle cx="877.0" cy="35.2" r="0.5" fill="#FFFFFF" opacity="0.61"/>
+<circle cx="1111.4" cy="46.5" r="1.0" fill="#FFFFFF" opacity="0.41" style="animation:tw 6.3s ease-in-out 4.0s infinite"/>
+<circle cx="423.8" cy="68.7" r="1.2" fill="#FFFFFF" opacity="0.41"/>
+  <g transform="translate(800 22)"><path d="M-7 0L0 -7L7 0L0 7Z" fill="#F2CF7A" opacity=".85"/></g>
+  <g class="comet"><path d="M-170 33 Q-80 25 0 27" fill="none" stroke="url(#tail)" stroke-width="2.2" stroke-linecap="round"/><circle cx="0" cy="27" r="3.2" fill="#F2CF7A" filter="url(#glow)"/></g>
 </svg>
