@@ -54,7 +54,7 @@ A privacy-aware UX analytics platform that records real user sessions, replays t
 
 ### Jawabdehi
 
-> **7th place · HACKCACHE'26, national-level hackathon · built solo in about 24 hours**
+> **7th place · HACKCACHE'26, national-level hackathon**
 
 A citizen-powered government accountability platform. Jawabdehi means "accountability" in Hindi. A complaint against an official is kept in an append-only, hash-chained record that nobody can quietly rewrite, and it moves up a chain of authorities automatically when an office stays silent.
 
@@ -68,7 +68,7 @@ A citizen-powered government accountability platform. Jawabdehi means "accountab
 
 > **Note:** Jawabdehi is a hackathon prototype. Officials, offices, complaints and lawyers are all made up, time is simulated with demo controls, and data stays in the browser.
 
-[Repository](https://github.com/Srinidhi-111/HACKCACHE-26)
+[Live demo](https://jawabdehi-eosin.vercel.app/) · [Repository](https://github.com/Srinidhi-111/HACKCACHE-26)
 
 ### StreetGuard
 
@@ -81,7 +81,7 @@ A parametric income-protection prototype for gig delivery workers affected by ve
 - Designed weather- and city-disruption trigger logic for rainfall, extreme heat, air quality, platform downtime, and manual disruption events.
 - Integrated or architected external data, Firebase, backend, machine-learning, and sandbox-payment components for the MVP workflow.
 - Created a loss-simulation dashboard to show potential disruption-related income loss and coverage scenarios.
-- Built for **Guidewire DEVTrails 2026** with Team Code4ce and reached the **Diamond tier**, roughly the top 15% of about 1,800 teams.
+- Built for **Guidewire DEVTrails 2026** with Team Code4ce and reached the **Diamond tier**, roughly the top 1% of around 1,800 to 2,000 teams.
 
 > **Note:** StreetGuard is a hackathon prototype. It does not issue regulated insurance policies or process real payouts. Test-mode and simulated integrations are used where production access is not available.
 
@@ -100,20 +100,6 @@ A Tamil-English code-mixed scam and misinformation detector for WhatsApp forward
 - Built for **OpenHack26**, a FOSS Community hackathon.
 
 [Repository](https://github.com/Srinidhi-111/OpenHack26)
-
-### AI Stock Market Bot
-
-A Python dashboard for historical market-data exploration and AI-assisted stock analysis.
-
-**Tech stack:** Python, Streamlit, Groq API, yfinance, Pandas, Plotly
-
-- Built an interactive dashboard that retrieves stock-market data and displays price metrics, historical trends, and volume information.
-- Processed market data with Pandas and created interactive price visualizations using Plotly.
-- Integrated the Groq API to generate AI-assisted market summaries using selected stock data and market context.
-- Added validation and error handling for invalid symbols, unavailable data, and AI API failures.
-- Designed for educational market exploration and not for financial advice.
-
-_Repository will be published soon._
 
 <p align="center">
   <picture>
