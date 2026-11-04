@@ -15,11 +15,11 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#02040A"/><stop offset=".55" stop-color="#061021"/><stop offset="1" stop-color="#0A1A33"/>
     </linearGradient>
-    <radialGradient id="planet" cx="34%" cy="28%" r="80%">
-      <stop offset="0" stop-color="#F2F8FF"/><stop offset=".25" stop-color="#9CC6EA"/><stop offset=".65" stop-color="#2F6AA8"/><stop offset="1" stop-color="#0A1730"/>
+    <radialGradient id="planet" cx="26%" cy="22%" r="82%">
+      <stop offset="0" stop-color="#A0C4E7"/><stop offset=".25" stop-color="#4B7AB1"/><stop offset=".65" stop-color="#1A3963"/><stop offset="1" stop-color="#060E1E"/>
     </radialGradient>
     <radialGradient id="night" cx="85%" cy="85%" r="70%">
-      <stop offset=".35" stop-color="#02040A" stop-opacity=".85"/><stop offset="1" stop-color="#02040A" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#060E1E" stop-opacity=".82"/><stop offset="1" stop-color="#060E1E" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#E2EAF4" stop-opacity=".15"/><stop offset=".5" stop-color="#E2EAF4" stop-opacity="1.0"/><stop offset="1" stop-color="#E2EAF4" stop-opacity=".15"/>
@@ -31,6 +31,9 @@
       <stop offset="0" stop-color="#F4F7FB"/><stop offset=".42" stop-color="#F4F7FB"/>
       <stop offset=".5" stop-color="#FFFFFF"/><stop offset=".58" stop-color="#F4F7FB"/><stop offset="1" stop-color="#F4F7FB"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-700 0; 900 0; 900 0" keyTimes="0; .45; 1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rimlit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6FD3FF"/><stop offset=".45" stop-color="#6FD3FF" stop-opacity=".55"/><stop offset=".8" stop-color="#6FD3FF" stop-opacity=".08"/>
     </linearGradient>
     <clipPath id="pclip"><circle cx="1265" cy="268" r="118"/></clipPath>
     <clipPath id="frame"><rect width="1600" height="520" rx="22"/></clipPath>
@@ -647,14 +650,14 @@
     <circle cx="1265" cy="268" r="152" fill="#6FD3FF" opacity=".30" filter="url(#midblur)"/>
     <circle cx="1265" cy="268" r="118" fill="url(#planet)"/>
     <g clip-path="url(#pclip)">
-      <g class="bands" opacity=".22">
-        <path d="M905 228 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#0A1730" stroke-width="14"/>
-        <path d="M905 274 q60 12 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#F2F8FF" stroke-width="8" opacity=".7"/>
-        <path d="M905 320 q60 -10 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#0A1730" stroke-width="18"/>
+      <g class="bands" opacity=".18">
+        <path d="M905 228 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#060E1E" stroke-width="14"/>
+        <path d="M905 274 q60 12 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#A0C4E7" stroke-width="8" opacity=".7"/>
+        <path d="M905 320 q60 -10 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#060E1E" stroke-width="18"/>
       </g>
       <circle cx="1265" cy="268" r="118" fill="url(#night)"/>
     </g>
-    <circle cx="1265" cy="268" r="119" fill="none" stroke="#6FD3FF" stroke-opacity=".85" stroke-width="2.4" filter="url(#glow)"/>
+    <circle cx="1265" cy="268" r="119" fill="none" stroke="url(#rimlit)" stroke-width="3" filter="url(#glow)"/>
     <g transform="rotate(-16 1265 268)">
       <path d="M1495 268 A230 52 0 0 1 1035 268" fill="none" stroke="url(#ring)" stroke-width="10"/>
       <circle r="4" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M1495 268 A230 52 0 0 1 1035 268"/></circle>

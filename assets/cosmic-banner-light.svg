@@ -15,11 +15,11 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F9FBFE"/><stop offset=".55" stop-color="#EDF3FA"/><stop offset="1" stop-color="#DDE8F4"/>
     </linearGradient>
-    <radialGradient id="planet" cx="34%" cy="28%" r="80%">
-      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".25" stop-color="#A9C9E6"/><stop offset=".65" stop-color="#3F72AD"/><stop offset="1" stop-color="#183256"/>
+    <radialGradient id="planet" cx="26%" cy="22%" r="82%">
+      <stop offset="0" stop-color="#AFCCE9"/><stop offset=".25" stop-color="#5280B6"/><stop offset=".65" stop-color="#204372"/><stop offset="1" stop-color="#0A1628"/>
     </radialGradient>
     <radialGradient id="night" cx="85%" cy="85%" r="70%">
-      <stop offset=".35" stop-color="#DDE8F4" stop-opacity=".85"/><stop offset="1" stop-color="#DDE8F4" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#0A1628" stop-opacity=".82"/><stop offset="1" stop-color="#0A1628" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#3D5272" stop-opacity=".15"/><stop offset=".5" stop-color="#3D5272" stop-opacity="1.0"/><stop offset="1" stop-color="#3D5272" stop-opacity=".15"/>
@@ -31,6 +31,9 @@
       <stop offset="0" stop-color="#0A1324"/><stop offset=".42" stop-color="#0A1324"/>
       <stop offset=".5" stop-color="#5FB6F0"/><stop offset=".58" stop-color="#0A1324"/><stop offset="1" stop-color="#0A1324"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-700 0; 900 0; 900 0" keyTimes="0; .45; 1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rimlit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1769A6"/><stop offset=".45" stop-color="#1769A6" stop-opacity=".55"/><stop offset=".8" stop-color="#1769A6" stop-opacity=".08"/>
     </linearGradient>
     <clipPath id="pclip"><circle cx="1265" cy="268" r="118"/></clipPath>
     <clipPath id="frame"><rect width="1600" height="520" rx="22"/></clipPath>
@@ -68,13 +71,13 @@
     <!-- nebula clouds -->
     <g filter="url(#bigblur)">
       <g opacity="0.22"><ellipse class="nebula" cx="420" cy="150" rx="380" ry="170" fill="#5E8FD0"/></g>
-      <g opacity="0.16"><ellipse class="nebula" cx="1050" cy="470" rx="420" ry="110" fill="#3FB0C6" style="animation-delay:-6s"/></g>
+      <g opacity="0.16"><ellipse class="nebula" cx="1050" cy="470" rx="420" ry="110" fill="#2B7EA6" style="animation-delay:-6s"/></g>
       <g opacity="0.18"><ellipse class="nebula" cx="1350" cy="120" rx="300" ry="150" fill="#7AA4DA" style="animation-delay:-11s"/></g>
     </g>
     <!-- aurora ribbons -->
-    <g opacity="0.22" filter="url(#midblur)">
+    <g opacity="0.42" filter="url(#midblur)">
       <path class="aurora" d="M-100 120 C 200 40, 420 200, 760 110 S 1300 40, 1700 140" fill="none" stroke="#1769A6" stroke-width="46"/>
-      <path class="aurora a2" d="M-100 190 C 260 120, 520 260, 880 170 S 1350 120, 1700 220" fill="none" stroke="#3FB0C6" stroke-width="34"/>
+      <path class="aurora a2" d="M-100 190 C 260 120, 520 260, 880 170 S 1350 120, 1700 220" fill="none" stroke="#2B7EA6" stroke-width="34"/>
     </g>
     <!-- milky way -->
     <ellipse cx="800" cy="260" rx="900" ry="40" fill="#5E8FD0" opacity=".18" filter="url(#midblur)" transform="rotate(-9 800 260)"/>
@@ -647,14 +650,14 @@
     <circle cx="1265" cy="268" r="152" fill="#1769A6" opacity=".30" filter="url(#midblur)"/>
     <circle cx="1265" cy="268" r="118" fill="url(#planet)"/>
     <g clip-path="url(#pclip)">
-      <g class="bands" opacity=".22">
-        <path d="M905 228 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#183256" stroke-width="14"/>
-        <path d="M905 274 q60 12 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#FFFFFF" stroke-width="8" opacity=".7"/>
-        <path d="M905 320 q60 -10 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#183256" stroke-width="18"/>
+      <g class="bands" opacity=".18">
+        <path d="M905 228 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#0A1628" stroke-width="14"/>
+        <path d="M905 274 q60 12 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#AFCCE9" stroke-width="8" opacity=".7"/>
+        <path d="M905 320 q60 -10 120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#0A1628" stroke-width="18"/>
       </g>
       <circle cx="1265" cy="268" r="118" fill="url(#night)"/>
     </g>
-    <circle cx="1265" cy="268" r="119" fill="none" stroke="#1769A6" stroke-opacity=".85" stroke-width="2.4" filter="url(#glow)"/>
+    <circle cx="1265" cy="268" r="119" fill="none" stroke="url(#rimlit)" stroke-width="3" filter="url(#glow)"/>
     <g transform="rotate(-16 1265 268)">
       <path d="M1495 268 A230 52 0 0 1 1035 268" fill="none" stroke="url(#ring)" stroke-width="10"/>
       <circle r="4" fill="#5FB6F0" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M1495 268 A230 52 0 0 1 1035 268"/></circle>
