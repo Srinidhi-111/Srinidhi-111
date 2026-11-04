@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg?v=2" width="100%" alt="Srinidhi R. Full-stack, AI, security and design. I build software that is honest about what it does.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/cosmic-banner.svg?v=5" width="100%" alt="Srinidhi R. Full-stack, AI, security and design. I build software that is honest about what it does.">
   </picture>
 </div>
 
@@ -28,9 +28,9 @@ I am particularly interested in software that combines thoughtful design, reliab
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg?v=2" width="100%" alt="Selected work: UX Session Replay, Jawabdehi, StreetGuard and Meiyaa">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/project-stars.svg?v=5" width="100%" alt="Selected work: UX Session Replay, Jawabdehi, StreetGuard and Meiyaa">
   </picture>
 </p>
 
@@ -117,9 +117,9 @@ _Repository will be published soon._
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2" width="100%" alt="Cosmic orbit divider">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5" width="100%" alt="Cosmic orbit divider">
   </picture>
 </p>
 
@@ -146,9 +146,9 @@ _Repository will be published soon._
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2" width="100%" alt="Cosmic orbit divider">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5" width="100%" alt="Cosmic orbit divider">
   </picture>
 </p>
 
@@ -158,9 +158,9 @@ I use GitHub to document experiments, prototypes, hackathon projects, and evolvi
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=2" width="100%" alt="Cosmic orbit divider">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/orbit-divider.svg?v=5" width="100%" alt="Cosmic orbit divider">
   </picture>
 </p>
 
@@ -180,8 +180,8 @@ I use GitHub to document experiments, prototypes, hackathon projects, and evolvi
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula-light.svg?v=2">
-    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg?v=2" width="100%" alt="Still learning, still building, still looking ahead">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula-light.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Srinidhi-111/Srinidhi-111/main/assets/footer-nebula.svg?v=5" width="100%" alt="Still learning, still building, still looking ahead">
   </picture>
 </p>
