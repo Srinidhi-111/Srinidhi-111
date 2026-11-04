@@ -85,7 +85,7 @@ A parametric income-protection prototype for gig delivery workers affected by ve
 
 > **Note:** StreetGuard is a hackathon prototype. It does not issue regulated insurance policies or process real payouts. Test-mode and simulated integrations are used where production access is not available.
 
-[Repository](https://github.com/Srinidhi-111/streetguard) · [Pitch deck](https://docs.google.com/presentation/d/1v2v14qv_H5xEEdcNhWL0Ht9p7J6llaco/edit?usp=sharing&ouid=118022404412997280067&rtpof=true&sd=true)
+[Live demo](https://srinidhi-111.github.io/streetguard/) · [Repository](https://github.com/Srinidhi-111/streetguard) · [Pitch deck](https://docs.google.com/presentation/d/1v2v14qv_H5xEEdcNhWL0Ht9p7J6llaco/edit?usp=sharing&ouid=118022404412997280067&rtpof=true&sd=true)
 
 ### Meiyaa
 
